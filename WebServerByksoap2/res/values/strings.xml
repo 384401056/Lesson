@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WebServerByksoap2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="btn01">获取省份列表</string>
+	<string name="btn02">根据省份获取城市列表</string>
+	<string name="btn03">根据城市获取相应天气</string>
+</resources>

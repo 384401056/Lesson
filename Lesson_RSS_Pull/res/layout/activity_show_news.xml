@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShowNewsActivity" >
+
+    <TextView
+        android:id = "@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#f0630b"
+        android:layout_margin="5dp"
+        />
+
+   <TextView
+        android:id = "@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#00786f"
+        android:layout_margin="5dp"
+        />
+    
+   <TextView
+        android:id = "@+id/tvDescp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#1c462f"
+        android:layout_margin="5dp"
+        />
+        
+    <TextView
+        android:id = "@+id/tvLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#06728e"
+        android:layout_margin="5dp"
+        android:autoLink="web"
+        />
+    
+</LinearLayout>

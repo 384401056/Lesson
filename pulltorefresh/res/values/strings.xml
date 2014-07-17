@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pulltorefresh</string>
+    <string name="pull_to_refresh_pull_label">下拉更新....</string>
+    <string name="pull_to_refresh_release_label">请释放，以更新数据....</string>
+    <string name="pull_to_refresh_refreshing_label">正在加载....</string>
+    <string name="pull_to_refresh_tap_label">更新数据请下拉....</string>
+</resources>

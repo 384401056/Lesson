@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<data-sources>
+
+<data-source type="">
+	<!-- 所用的JDBC驱动类，必须-->
+	<set-property property="driverClass" value="com.mysql.jdbc.Driver"/>
+	<!-- 所用的JDBC的URL，必须-->
+	 <set-property property="url" value="jdbc:mysql://localhost/test"/>
+	<!-- 连结到数据库的用户名，必须-->
+	<set-property property="user" value="root"/>
+	<!-- 连结到数据库的密码，必须-->
+	<set-property property="password" value="root"/>
+</data-source>
+
+</data-sources>
+
+<form-beans>
+
+	<form-bean name="FormBean的名称" type="FormBean对应JavaBean类的全路径"/>
+
+</form-beans>
+
+<global-forwards>
+
+<forward />
+
+</global-forwards>
+
+<action-mappings>
+
+<action />
+
+</action-mappings>
+
+<controller />
+
+<message-resources / >
+
+<plug-in />
+</struts-config>

@@ -1,4 +1,0 @@
-Lesson
-======
-
-Lesson for android

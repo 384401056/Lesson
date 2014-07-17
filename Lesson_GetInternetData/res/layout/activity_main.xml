@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/hello_world" />
+
+   <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="12sp"
+        android:layout_margin="5dp"
+        android:textStyle="italic"
+        android:text="http://img5.cache.netease.com/tech/2013/10/21/201310210834082bcd6.jpg" >
+
+    </EditText>
+
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="144dp"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="80dp"
+       android:text="@string/buttonStr" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:visibility="invisible"
+        />
+
+</LinearLayout>

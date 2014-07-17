@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MulThreadDownloader</string>
+    <string name="action_settings">Settings</string>
+    <string name="Title">文件多线程下载</string>
+	<string name="tvPath">下载路径</string>
+	<string name="btn01Str">开始下载</string>
+	<string name="success">下载完成</string>
+	<string name="fail">下载失败</string>
+	<string name="sdError">SD卡不存在或写保护</string>
+</resources>

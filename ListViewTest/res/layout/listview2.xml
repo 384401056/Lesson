@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" 
+  android:layout_gravity="center"
+  
+  >
+
+ 	<LinearLayout
+ 	    android:id="@+id/ll01"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:orientation="vertical" 
+ 	    android:layout_margin="2dp"
+ 	    >
+ 	    
+ 	    <ImageView 
+ 	        android:id="@+id/ivState"
+ 	        android:layout_gravity="center"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:src="@drawable/sensor_2"
+ 	        />
+ 	    
+ 	    <TextView
+ 	        android:id="@+id/tvSerialId"
+ 	        android:layout_gravity="center"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textSize="15sp"
+ 	        android:textColor="#FFFFFF"
+ 	        android:layout_marginTop="5dp"
+ 	        android:text="10001"
+ 	        />
+ 	    
+ 	    
+	</LinearLayout>
+	
+	<LinearLayout
+ 	    android:id="@+id/ll02"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:orientation="vertical" 
+ 	    android:layout_margin="2dp"
+ 	    >
+ 	    
+	   <TextView
+	       android:id="@+id/tv01"
+ 	        android:layout_gravity="center"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textSize="15sp"
+ 	        android:textColor="#FFFFFF"
+ 	        android:text="实时温度："
+ 	        />
+	   
+	   <TextView
+	       android:id="@+id/tv02"
+ 	        android:layout_gravity="center"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textSize="15sp"
+ 	        android:textColor="#FFFFFF"
+ 	        android:text="实时湿度："
+ 	        />
+	   	   
+	   <TextView
+	       android:id="@+id/tv03"
+ 	        android:layout_gravity="center"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textSize="15sp"
+ 	        android:textColor="#FFFFFF"
+ 	        android:text="所在位置："
+ 	        />
+	    
+	    
+ 	    
+	</LinearLayout>
+	
+	
+	<LinearLayout
+ 	    android:id="@+id/ll03"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:orientation="vertical" 
+ 	    android:layout_margin="2dp"
+ 	    >
+ 	    
+	   <TextView
+	       android:id="@+id/tempStr"
+ 	        android:layout_gravity="left"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textSize="15sp"
+ 	        android:textColor="#FFFFFF"
+ 	        android:text="℃28"
+ 	        />
+	   
+	   <TextView
+	       android:id="@+id/humStr"
+ 	        android:layout_gravity="left"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textSize="15sp"
+ 	        android:textColor="#FFFFFF"
+ 	        android:text="33%"
+ 	        />
+	   	   
+	   <TextView
+	       android:id="@+id/location"
+ 	        android:layout_gravity="left"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:textSize="15sp"
+ 	        android:textColor="#FFFFFF"
+ 	        android:text="一号区域3号平台"
+ 	        />
+	    
+	    
+ 	    
+	</LinearLayout>
+
+
+</LinearLayout>
+
+
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	

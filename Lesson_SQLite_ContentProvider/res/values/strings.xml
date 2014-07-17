@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lesson_SQLite</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">SQLite测试工具.</string>
+    <string name="idTitle">ID</string>
+    <string name="nameTitle">用户姓名</string>
+    <string name="ageTitle">用户年龄</string>
+
+</resources>
